@@ -1,4 +1,4 @@
-package com.example.entity;
+package com.example.demo.entity;
 
 import org.springframework.data.mongodb.core.mapping.Field;
 

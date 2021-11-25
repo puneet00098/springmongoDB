@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.example.demo.controller;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.entity.Student;
-import com.example.service.StudentService;
+import com.example.demo.entity.Student;
+import com.example.demo.service.StudentService;
 
 @RestController
 @RequestMapping("/api/student")

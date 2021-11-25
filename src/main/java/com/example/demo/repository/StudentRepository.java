@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.example.repository;
+package com.example.demo.repository;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
  */
 import org.springframework.stereotype.Repository;
 
-import com.example.entity.Student;
+import com.example.demo.entity.Student;
 
 @Repository
 public interface StudentRepository extends MongoRepository<Student, String> {

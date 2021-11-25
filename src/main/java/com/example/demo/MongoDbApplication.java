@@ -5,12 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
-@SpringBootApplication // Annotation for Spring boot application 
-//@EnableMongoRepositories is required to connumicate with Mongo DB.
-//location of the package is required ("com.example.repository")
+@SpringBootApplication 
 
-@EnableMongoRepositories("com.example.repository")
-@ComponentScan("com.example.*")
+@EnableMongoRepositories("com.example.demo.repository")
+@ComponentScan("com.example.demo.*")
 
 public class MongoDbApplication {
 
